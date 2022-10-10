@@ -1,0 +1,30 @@
+.item {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  background-color: var(--main-bg-color);
+}
+
+.item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.avatar {
+  width: 50px;
+}
+
+.offline {
+  margin-right: 15px;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.online {
+  margin-right: 15px;
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  border-radius: 50%;
+}

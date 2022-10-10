@@ -1,0 +1,49 @@
+.statistics {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+.statistics__card {
+  width: 200px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.title {
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--scnd-text-color);
+  background-color: var(--main-bg-color);
+}
+
+.stat-list {
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.item:nth-child(1) {
+  background-color: aqua;
+}
+
+.item:nth-child(2) {
+  background-color: palevioletred;
+}
+
+.item:nth-child(3) {
+  background-color: palegoldenrod;
+}
+
+.item:nth-child(4) {
+  background-color: deepskyblue;
+}

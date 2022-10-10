@@ -1,0 +1,16 @@
+.transaction-history {
+  width: 100%;
+}
+
+.table__head {
+  height: 45px;
+  background-color: deepskyblue;
+}
+
+.table__body {
+  height: 45px;
+}
+
+.table__body:nth-child(odd) {
+  background-color: var(--scnd-bg-color);
+}
