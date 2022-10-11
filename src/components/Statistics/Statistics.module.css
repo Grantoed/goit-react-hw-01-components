@@ -1,18 +1,35 @@
 .statistics {
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 30px;
+  width: 300px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .statistics__card {
-  width: 200px;
-  margin-right: 15px;
-  margin-bottom: 15px;
+  flex-grow: 1;
+}
+
+.statistics__card:nth-child(1) {
+  background-color: aqua;
+}
+
+.statistics__card:nth-child(2) {
+  background-color: palevioletred;
+}
+
+.statistics__card:nth-child(3) {
+  background-color: palegoldenrod;
+}
+
+.statistics__card:nth-child(4) {
+  background-color: deepskyblue;
+}
+
+.statistics__card:nth-child(5) {
+  background-color: goldenrod;
 }
 
 .title {
   padding: 10px;
-  text-align: center;
   text-transform: uppercase;
   color: var(--scnd-text-color);
   background-color: var(--main-bg-color);
@@ -29,21 +46,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 5px;
-}
-
-.item:nth-child(1) {
-  background-color: aqua;
-}
-
-.item:nth-child(2) {
-  background-color: palevioletred;
-}
-
-.item:nth-child(3) {
-  background-color: palegoldenrod;
-}
-
-.item:nth-child(4) {
-  background-color: deepskyblue;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
